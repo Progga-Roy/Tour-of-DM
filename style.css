@@ -7,3 +7,11 @@ ul li{
 .fav-places{
 color:rgb(2, 75, 104);
 }
+
+.background{
+    background-color: lavender !important;
+    text-align: center;
+}
+.large-text{
+    font-size: 2rem;
+}
