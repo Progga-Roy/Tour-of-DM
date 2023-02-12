@@ -10,3 +10,11 @@ const allHeadings = document.getElementsByTagName('h1')
       console.log(h1.innerHTML);
     }
 
+    const fruits = document.getElementById('fruit-title');
+    fruits.innerText= 'Changed title by JS';
+
+
+const places = document.getElementsByClassName('fav-places');
+for(const place of places){
+console.log(place.innerText)
+}
